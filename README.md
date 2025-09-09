@@ -112,6 +112,7 @@ Team textures are **the** primary theming lever, and they propagate automaticall
   - **Airship meshes** (each team’s ship)
   - **Team flags**
   - **Each player’s balloon**
+  - **Each player's top hat**
   - **Ship props/furniture** (e.g., chairs)
 
 #### How to re-skin fast
