@@ -43,7 +43,7 @@ Similar to the hierarchy, the code “framework” is intended to leave a lightw
 - **`AirpunkAdventure_Events.ts`**  
   All events used by the world.
 
-The scripts are prefixed intentionally so they sort together in IDEs and don’t obscure your custom scripts. Another nice side effect is that you can easily copy/paste the entire codebase into external tooling.
+The scripts are prefixed intentionally so they sort together in IDEs and don’t obscure your custom scripts. Another nice side effect is that you can easily copy/paste the entire codebase into something like ChatGPT.
 
 > If you prefer to refactor these components into separate files, remember to designate any client-side scripts with **Local** execution mode.
 
