@@ -111,18 +111,18 @@ Team textures are **the** primary theming lever, and they propagate automaticall
 
 - **Set once** on `CaptureTheFlagManager`: `team1Texture` and `team2Texture`.  
 - Those textures then apply to:
-  - **Airship hull meshes** (each team’s ship)
-  - **On-deck team flags**
-  - **Each player’s balloon** (tinted to match their team)
-  - **Ship props/furniture** (e.g., chairs), as you expand the theme
+  - **Airship meshes** (each team’s ship)
+  - **Team flags**
+  - **Each player’s balloon**
+  - **Ship props/furniture** (e.g., chairs)
 
 #### How to re-skin fast
 
 1. In the repo root, locate the base texture template: `./FantasyShip_BR.png`.  
-2. Duplicate it to create two variants (for example):  
+2. Duplicate it to create variants (for example):  
    - `./FantasyShip_BR_Team1.png` (e.g., Purple)  
    - `./FantasyShip_BR_Team2.png` (e.g., Green)
-3. Edit the duplicates in your image editor (preserve alpha and dimensions).  
+3. Edit the duplicates in your image editor of choice (preserve alpha and dimensions).  
 4. In-world, set:
    - `CaptureTheFlagManager.team1Texture` → `FantasyShip_BR_Team1.png`  
    - `CaptureTheFlagManager.team2Texture` → `FantasyShip_BR_Team2.png`
