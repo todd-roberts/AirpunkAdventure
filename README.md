@@ -128,3 +128,6 @@ Team textures are **the** primary theming lever, and they propagate automaticall
    - `CaptureTheFlagManager.team2Texture` → `FantasyShip_BR_Team2.png`
 
 That single change re-skins ships, flags, player balloons, and any themed props you add.
+
+## Questions?
+Feel free to open an issue against this repo or reach out to `scarcesoft` within Horizon Worlds.
