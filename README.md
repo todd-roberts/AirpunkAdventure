@@ -1,9 +1,3 @@
-#!/usr/bin/env ruby
-# Save as: write_readme.rb
-# Run:     ruby write_readme.rb
-# Result:  Creates README.md with the raw markdown content below.
-
-File.write("README.md", <<~'MD')
 # Airpunk Adventure Remixable World
 
 Welcome to the guide for the Airpunk Adventure Remixable World! This document provides an overview of the project, its features, and instructions on how to remix and customize your own version of the world.
