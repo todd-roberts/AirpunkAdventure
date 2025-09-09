@@ -59,8 +59,6 @@ Configuration is done in two ways:
 The player devices described in the [Overview](#overview) are provided by objects with the `PlayerGear` **client-side** script attached. These objects live inside the **`PlayerGearAssetPool`**. When a player joins, everything nested under `PlayerGear` is automatically assigned to that player. Items like the crossbow are force-held once delivery to the client is confirmed.
 
 ### Ideas for Improvement / Extension
-
-- Add another attachable to indicate team membership (hat, goggles, etc.). You can reuse **`FantasyShip_BR.png`** for these, similar to how balloons are tinted by team. See [Texture Swapping](#texture-swapping).
 - Add a PPV for player preferences (e.g., handedness). Deliver that via event to `PlayerGear` to decide which hand to force-hold the crossbow in.
 - Add an explicit **recovery** mechanism if the asset pool falters—let players claim an owner-less `PlayerGear` or spawn a new one.
 - Consider a recurring **heartbeat** event from `PlayerGear` to the asset pool—if a heartbeat isn’t received, assume missing gear and reassign.
