@@ -27,6 +27,9 @@ The hierarchy is a small, well-organized set of objects. The root-level objects 
 - **Airships**  
   Holds both example airships. This object is not merely organizational—it contains a script that manages air-traffic control between the ships. See [Airship Movement](#airship-movement).
 
+- **Cannonballs**
+  This is just a pool of example cannonballs for the cannons. This needs to be outside of Airships because the balls are physics-enabled, so they can't be descendents of animated entities.
+
 ## Codebase
 
 Similar to the hierarchy, the code “framework” is intended to leave a lightweight footprint in your scripts directory. It includes the following files:
@@ -112,6 +115,7 @@ Team textures are **the** primary theming lever, and they propagate automaticall
   - **Airship meshes** (each team’s ship)
   - **Team flags**
   - **Each player’s balloon**
+
   - **Each player's top hat**
   - **Ship props/furniture** (e.g., chairs)
 
