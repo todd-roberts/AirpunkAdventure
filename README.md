@@ -97,7 +97,7 @@ Airships move **on rails**: players steer ships left/right across discrete “la
 2. **Easier, more immersive navigation**  
    Free 3D flight is cognitively heavy. Rails let players focus on timing and tactics instead of piloting a helicopter.
 3. **Prebaked navmeshes (the subtle win)**  
-   Predictable rest positions mean you can prebake navmeshes and do believable **on-deck NPC** movement when ships aren’t sliding. That’s almost impossible with free-flight platforms.
+   Predictable rest positions mean you can prebake navmeshes and do believable **on-deck NPC** movement when ships aren’t moving.
 
 #### What to tweak first
 
