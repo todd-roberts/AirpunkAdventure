@@ -27,7 +27,7 @@ The hierarchy is a small, well-organized set of objects. The root-level objects 
 - **Airships**  
   Holds both example airships. This object is not merely organizational—it contains a script that manages air-traffic control between the ships. See [Airship Movement](#airship-movement).
 
-- **Cannonballs**
+- **Cannonballs**  
   This is just a pool of example cannonballs for the cannons. This needs to be outside of Airships because the balls are physics-enabled, so they can't be descendents of animated entities.
 
 ## Codebase
